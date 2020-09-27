@@ -64,3 +64,11 @@ def update_recommendation_status(user_id, problem_id, submission = None):
     """
     return
 
+def can_refresh_recommendations(user_id):
+    """
+    Check whether recommendations can be refreshed.
+
+    @param user_id (Integer): User ID for which the check should be done.
+    @return (Boolean): Flag to identify whether recommendations can be refreshed.
+    """
+    return True
